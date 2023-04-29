@@ -17,7 +17,7 @@ public class StringFunFunctionalShort {
     }
 
     public static String camelcase(String s){
-        String[] words = s.t,toLowerCase().split(" ");
+        String[] words = message.toLowerCase().split(" ");
         String result = "";
         for ( String w : words)
             result += w.substring(0,1).toUpperCase() + w.substring(1);
