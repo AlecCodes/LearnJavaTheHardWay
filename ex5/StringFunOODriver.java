@@ -9,7 +9,7 @@ public class StringFunOODriver {
 
         StringFunObject sfo = new StringFunObject();
         sfo.setMessage(msg);
-        sfo.reverse();
+        sfo.half();
         sfo.camelCase();
 
         //display it
