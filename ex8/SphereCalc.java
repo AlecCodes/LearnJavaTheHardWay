@@ -10,10 +10,10 @@ public class SphereCalc{
     }
 
     public double getSurfaceArea(){
-        reutrn 4*Math.PI*radius*radius;
+        return 4*Math.PI*radius*radius;
     }
 
     public double getVolume(){
-        return 4*Math.PI.pow(radius,3)/3.0;
+        return 4*Math.PI*Math.pow(radius,3)/3.0;
     }
 }

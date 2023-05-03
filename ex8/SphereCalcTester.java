@@ -1,8 +1,8 @@
 public class SphereCalcTester {
     public static void main( String[] args) {
-        SphereCalc c = new SphereCalc();
+        SphereCalc2 c = new SphereCalc2();
 
-        c.setRadius(5);
+        c.radius =  5;
         if (isNear(c.getSurfaceArea(), 314.159265359))
             System.out.println("PASS: surfaceArea for " + c.getRadius());
         else
