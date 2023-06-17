@@ -2,6 +2,7 @@ public class NoughtsCrossesObject
 {
     // Instance Variables
     private String[][] board;
+
     private int turns;
 
     //Constructor
