@@ -46,4 +46,15 @@ public class ArrayListIntro{
         System.out.println("Current contents: " + arr );
 
     }
+    public static void showList( ArrayList<String> a){
+        System.out.println("Size() is "+ a.size());
+        for (int i = 0; i<a.size(); i++){
+            int len = a.get(i).length() + 4;
+            System.out.print("|" + centerPad(""+i, len));
+        }
+        System.out.println("|");
+        for ( String s : a )
+            System.out.print("| \"" + s + "\" ");
+        System.out.println("|\n")
+    }
 }
